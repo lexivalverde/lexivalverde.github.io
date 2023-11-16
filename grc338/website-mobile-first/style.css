@@ -1,0 +1,131 @@
+/*CSS DOCUMENT*/
+img {
+width: 100%; 
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+div.home-container { 
+background: url(home-background.jpg) center center fixed;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+}
+div.container {
+position: relative;
+min-height: 100vh;
+}
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+main { 
+padding: 1em 1em 6em;
+}
+img {
+width: 100%; /*Please leave this line.*/
+display: block;
+}
+header {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background: rgb(204, 204, 204);
+padding: 1em 1em;
+}
+h1 {
+width: 12em;
+}
+h2, h3, h4 {
+font-weight: bold;
+}
+h2 {
+font-size: 2rem;
+margin: 1em .3em .5em;
+font-family: sans-serif;
+}
+h3 {
+font-size: 1.5em;
+margin: 1em .3em .5em;
+font-family: sans-serif;
+}
+h4 {
+font-size: 1em;
+margin: 1.5em .3em .5em;
+font-family: sans-serif;
+}
+a {
+text-decoration: none;
+}
+nav ul  {
+text-align: right;
+}
+ul li 	{
+list-style-type: none;
+}
+figure {
+margin-bottom: .4em;
+}
+main.menu ul {
+margin: 1.8em .2em;
+}	
+main.menu ul li {
+margin: .2em .1em .1em;
+display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+}	
+p {
+margin: 1.5em .3em 1.3em;
+font-family: sans-serif;
+}
+p.description {
+grid-column: 1/2;
+margin: .3em;
+font-family: sans-serif;
+}
+p.price {
+grid-row: 1/2;
+grid-column: 2/2;
+color: rgb(220, 0, 0);
+text-align: right;
+margin: .2em;
+font-family: sans-serif;
+}
+nav ul li {
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 1em;
+}
+nav ul li a {
+color: rgb(255, 255, 85);
+background-color: rgb(0, 32, 245);
+font-family: sans-serif;
+padding: .5em;
+}
+p.slogan {
+font-size: 4.5em;
+font-family: serif;
+font-style: italic;
+margin: .6em .3 2;
+color: rgb(250, 250, 250)
+}
+p.address {
+font-size: 1em;
+font-family: sans-serif;
+margin: .25em 0em 0em .5em;
+color: rgb(239, 135, 35)
+}
+p.contact {font-size: 1em;
+font-family: sans-serif;
+margin: .25em 0em 0em .5em;
+color: rgb(239, 135, 35)
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 3rem; 
+box-sizing: border-box;
+padding: .75em .75em;
+background: rgb(255, 255, 84);
+}
+footer p {
+margin: 0em 0em 0em 0em; background: rgb(255, 255, 84);	
+}
